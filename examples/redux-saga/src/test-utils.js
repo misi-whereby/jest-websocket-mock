@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "@testing-library/react";
+import { render } from "react";
 import { Provider } from "react-redux";
 import WS from "jest-websocket-mock";
 import makeStore from "./store";
@@ -19,6 +19,6 @@ const renderWithStore = async (ui, options = {}) => {
   };
 };
 
-export * from "@testing-library/react";
-export { default as userEvent } from "@testing-library/user-event";
+export * from "react";
+export { default as userEvent } from "user-event";
 export { renderWithStore as render };

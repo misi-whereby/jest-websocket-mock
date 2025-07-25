@@ -1,6 +1,6 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render, screen, fireEvent } from "react";
+import userEvent from "user-event";
 import WS from "jest-websocket-mock";
 import App from "./App";
 

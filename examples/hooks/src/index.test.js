@@ -1,4 +1,4 @@
-const { act } = require("react-dom/test-utils");
+const { act } = require("react");
 
 describe("The index", () => {
   it("can be imported without errors", () => {

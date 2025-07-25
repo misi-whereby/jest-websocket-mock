@@ -308,10 +308,10 @@ adding `require('setimmediate');` to your `setupTests.js`.
 ## Testing React applications
 
 When testing React applications, `jest-websocket-mock` will look for
-`@testing-library/react`'s implementation of [`act`](https://reactjs.org/docs/test-utils.html#act).
+`react`'s implementation of [`act`](https://reactjs.org/docs/test-utils.html#act).
 If it is available, it will wrap all the necessary calls in `act`, so you don't have to.
 
-If `@testing-library/react` is not available, we will assume that you're not testing a React application,
+If `react` is not available, we will assume that you're not testing a React application,
 and you might need to call `act` manually.
 
 ## Using `jest-websocket-mock` to interact with a non-global WebSocket object
